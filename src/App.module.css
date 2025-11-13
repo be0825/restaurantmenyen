@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.dishGrid {
+  background-color: aqua;
+  border: 3px solid red;
+  color: black;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.dishCard {
+  background-color: aqua;
+  border: 3px solid red;
+  color: black;
+}
