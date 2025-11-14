@@ -12,10 +12,14 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+  height: 1080 px;
 }
 
 .dishCard {
   background-color: aqua;
   border: 3px solid red;
   color: black;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
